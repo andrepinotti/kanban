@@ -101,7 +101,19 @@ mockar os métodos de repositório (`find`, `create`, `save`, etc.), simulando o
   * Como uma das maneiras de melhorar a performance, a segurança e realizar mitigação de problemas. Utilizar Docker e seus paradigmas para que o usuário tenha mesma experiência, sem problemas de funcionamento por conta de Sistema Operacional ou Navegador.
 ---
 
-## **8. Como Executar o Sistema**
+## **8. Sobre mim**
+👨‍💻 Sobre Mim
+Meu nome é André Pinotti, tenho 21 anos e sou natural de São José do Rio Preto (SP). Atualmente, curso o 7º período de Sistemas de Informação no IFSP Votuporanga e sou completamente apaixonado por tecnologia e tudo que envolve desenvolvimento de software.
+Atualmente participo de uma Iniciação Científica (IC) na área de Machine Learning precisamente na parte de ultrassonografias de imagens de câncer de mama, onde venho ampliando meus conhecimentos e explorando técnicas de inteligência artificial aplicadas a problemas reais.
+
+Sou uma pessoa coletiva, proativa e colaborativa, com grande satisfação em ajudar outras pessoas e aprender continuamente. Gosto de trabalhar em equipe e acredito que boas soluções surgem da troca de ideias.
+
+💼 Experiência e Tecnologias
+Tenho experiência prática com:
+HTML, CSS, JavaScript, Bootstrap, React PHP, PostgreSQL
+Sou movido por desafios e busco constantemente evoluir como desenvolvedor, tanto tecnicamente quanto profissionalmente.
+
+## **9. Como Executar o Sistema**
 
 ### **Pré-requisitos**
 * Node.js instalado.
