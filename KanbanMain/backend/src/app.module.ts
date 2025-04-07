@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { KanbanModule } from './kanban.module';
-import { Column } from './entities/column.entity';
+import { ColumnEntity } from './entities/column.entity';
 import { Card } from './entities/card.entity';
 
 @Module({
@@ -13,7 +13,7 @@ import { Card } from './entities/card.entity';
       username: 'postgres',
       password: 'postdba',
       database: 'kanban',
-      entities: [Column, Card],
+      entities: [ColumnEntity, Card],
       autoLoadEntities: true,
       synchronize: true,
     }),

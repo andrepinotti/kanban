@@ -2,13 +2,13 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Card } from './entities/card.entity';
-import { Column } from './entities/column.entity';
+import { ColumnEntity } from './entities/column.entity';
 
 @Injectable()
 export class CardsService {
   constructor(
   @InjectRepository(Card) private readonly cardRepository: Repository<Card>,
-  @InjectRepository(Column) private readonly columnRepository: Repository<Column>) {}
+  @InjectRepository(ColumnEntity) private readonly columnRepository: Repository<ColumnEntity>) {}
 
   findAll() {
     return this.cardRepository.find({ relations: ['column'] });
